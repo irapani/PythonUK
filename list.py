@@ -20,5 +20,20 @@ print(fruits)
 
 fruits[1] = "lychee"
 
+
 for item in fruits:
     print(item)
+
+color = []
+color.append("red")
+color.append("green")
+color.append("pink")
+color.append("Yellow")
+color.insert(1,'Black')
+#for color in color:
+print(color)
+
+
+color = ["red", "green", "blue", "Black", "Yellow"]
+print(" the length of the list is ", len(color))
+
